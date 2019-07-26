@@ -2,11 +2,9 @@ import path from "path";
 import express from "express";
 import compression from "compression";
 import bodyParser from "body-parser";
-import dotenv from "dotenv";
 
 import routes, {Route} from "./routes";
 
-dotenv.config({path: ".env"});
 
 const app = express();
 
