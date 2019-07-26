@@ -1,6 +1,6 @@
 {
-    "name": "kerrigan",
-    "version": "2.0.0",
+    "name": "han",
+    "version": "1.0.0",
     "private": true,
     "scripts": {
         "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
@@ -18,9 +18,7 @@
         "ejs": "^2.6.1",
         "express": "^4.16.4",
         "moment": "^2.24.0",
-        "mysql": "^2.17.0",
-        "uuid": "^3.3.2",
-        "xml2js": "^0.4.19"
+        "mysql": "^2.17.0"
     },
     "devDependencies": {
         "@types/axios": "^0.14.0",
@@ -30,8 +28,6 @@
         "@types/moment": "^2.13.0",
         "@types/mysql": "^2.15.5",
         "@types/shelljs": "^0.8.5",
-        "@types/uuid": "^3.4.4",
-        "@types/xml2js": "^0.4.4",
         "concurrently": "^4.1.0",
         "nodemon": "^1.18.11",
         "ts-node": "^8.1.0",
