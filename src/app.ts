@@ -13,7 +13,7 @@ app.set("views", path.join(__dirname, "../views"));
 app.set("view engine", "ejs");
 
 
-app.use(express.static(path.join(__dirname, "../static"), {maxAge: 31557600000}));
+app.use(express.static(path.join(__dirname, "../public"), {maxAge: 31557600000}));
 app.use(compression());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
