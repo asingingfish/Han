@@ -7,7 +7,9 @@
         "watch-node": "cross-env PORT=9001 nodemon dist/bin/www.js",
         "watch-ts": "tsc -w",
         "build": "tsc",
-        "serve": "cross-env PORT=9001 node dist/bin/www.js"
+        "start": "cross-env PORT=80 pm2 start dist/bin/www.js --name han",
+        "restart": "cross-env PORT=80 pm2 restart han",
+        "stop": "pm2 stop han"
     },
     "bin": {},
     "dependencies": {
